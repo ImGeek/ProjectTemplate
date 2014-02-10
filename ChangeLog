@@ -6,6 +6,7 @@
   the package
 * create.project now works if the directory exists. Merging with a non-empty
   directory is supported when the new parameter merge.existing is set to TRUE.
+* Added .add.extension. This allows users to create custom readers for extensions, either locally in a project or as packages.
 
 2013-08-11	John Myles White  <jmw@johnmyleswhite.com>
 
